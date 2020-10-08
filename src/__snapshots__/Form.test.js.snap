@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rule Details Test Suite renders renders  1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-sm-2"
+  >
+    <h4>
+      Form
+    </h4>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "height": "500px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "paddingTop": "20px",
+            "textAlign": "left",
+          }
+        }
+      >
+        <label>
+          Name 
+        </label>
+        <br />
+        <input
+          className="form-control"
+          id="name"
+          name="name"
+          onChange={[Function]}
+          style={
+            Object {
+              "height": "26px",
+            }
+          }
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "paddingTop": "10px",
+            "textAlign": "left",
+          }
+        }
+      >
+        <label>
+          Password 
+        </label>
+        <br />
+        <input
+          className="form-control"
+          id="password"
+          name="password"
+          onChange={[Function]}
+          style={
+            Object {
+              "height": "26px",
+            }
+          }
+          type="password"
+          value=""
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "paddingTop": "10px",
+            "textAlign": "left",
+          }
+        }
+      >
+        <label>
+          Select preferences 
+        </label>
+        <br />
+        <input
+          id="a"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        chennai
+        <input
+          id="b"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        banglore
+        <input
+          id="c"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        pune
+      </div>
+      <div
+        style={
+          Object {
+            "paddingTop": "10px",
+            "textAlign": "left",
+          }
+        }
+      >
+        <label>
+          choose
+        </label>
+        <br />
+        <StateManager
+          defaultInputValue=""
+          defaultMenuIsOpen={false}
+          defaultValue={null}
+          id="selectedOption"
+          name="selectedOption"
+          onChange={[Function]}
+          options={
+            Array [
+              Object {
+                "label": "daily",
+                "value": "daily",
+              },
+              Object {
+                "label": "monthly",
+                "value": "monthly",
+              },
+              Object {
+                "label": "yearly",
+                "value": "yearly",
+              },
+            ]
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "paddingTop": "10px",
+            "textAlign": "left",
+          }
+        }
+      >
+        <label>
+          Terms&conditions
+        </label>
+        <br />
+        <div>
+          <input
+            id="a"
+            name="group1"
+            type="radio"
+          />
+          agree  
+          <input
+            id="b"
+            name="group1"
+            type="radio"
+          />
+          disagree
+        </div>
+      </div>
+      <br />
+      <div
+        align="center"
+        className="row"
+      >
+        <button
+          onClick={[Function]}
+        >
+          <b>
+            submit
+          </b>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
