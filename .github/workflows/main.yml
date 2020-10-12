@@ -30,7 +30,7 @@ jobs:
       - name: Build static site
         run: yarn install && yarn build --prod
       - name: Deploy static site to S3 bucket
-        run: aws s3 sync ./dist s3://cart-project --delete
+        run: aws s3 sync ./build s3://react-mydemo --delete
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
