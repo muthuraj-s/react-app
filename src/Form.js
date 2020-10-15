@@ -16,7 +16,7 @@ class Form extends React.Component {
         }
     }
    componentDidMount(){
-        console.log("aaa");
+       
        
             axios.get('http://localhost:3000/data/data.json').then((response) => {
                 console.log(response);
